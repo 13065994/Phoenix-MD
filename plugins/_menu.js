@@ -26,7 +26,7 @@ Description : ${i.desc}\`\`\``
     } else {
       let { prefix } = message;
       let [date, time] = new Date()
-        .toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })
+        .toLocaleString("en-IN", { timeZone: "Africa/Lagos" })
         .split(",");
       let currentTime = new Date();
       let runtime = clockString(currentTime - botStartTime);
@@ -76,7 +76,7 @@ Description : ${i.desc}\`\`\``
         image: { url: `https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg` },
         caption: tiny(menu),
         footer: tiny(
-          `Phoenix-MD\nVersion : ${require("../package.json").version}`
+          `𝙶𝚎𝚛𝚊𝚕𝚍 𝗰𝗵𝗮𝘁𝗯𝗼𝘁\nVersion : ${require("../package.json").version}`
         ),
       });
     }
